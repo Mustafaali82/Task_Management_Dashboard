@@ -5,5 +5,132 @@
 }
 
 body {
-    background-color: #D6D8FC;
+    background-color: #000000;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.main {
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    height: 700px;
+    width: 100%;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+/* Side BAr Section STyling */
+.sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#FFF, #fff, #4255ff34);
+    border-top-left-radius: 20px;
+    padding: 30px;
+    border-bottom-left-radius: 20px;
+}
+
+.sidebar .icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.sidebar .icon img {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.sidebar .icon .icon-img-bg-add {
+    background-color: #A0E79F;
+}
+
+.sidebar .icon img:hover {
+    background-color: #A0E79F;
+}
+
+/* Dashboard Section STyling */
+
+.dashboard {
+    width: 100%;
+}
+
+.top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 400px;
+    height: 45px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.person .person-image img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.person .person-detail h3 {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.person .person-detail span {
+    font-size: 13px;
+    color: #8E8E8E;
+}
+
+.person .person-detail span  img{
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+.arrow-rotate{
+    transition: .3s;
+}
+
+.person .arrow-rotate:hover{
+    transform: rotate(180deg);
+}
+
+.dashboard-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    width: 70%;
+}
+
+.tasks{
+    width: 30%;
+}
+
+
+
