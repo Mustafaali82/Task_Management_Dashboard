@@ -293,3 +293,53 @@ input {
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
+
+.other-person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.other_person_detail {
+    display: flex;
+    gap: 10px;
+}
+
+.other_person_detail h3 {
+    font-size: 16px;
+}
+
+.other_person_detail span {
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.taskCount h6 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.settingbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.setting-box-child{
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.setting-box-child img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.setting-box-child h2{
+    margin-top: 20px;
+}
