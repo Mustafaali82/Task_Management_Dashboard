@@ -34,7 +34,7 @@ body {
 .sidebar .icon {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .sidebar .icon img {
@@ -328,18 +328,22 @@ input {
     gap: 15px;
 }
 
-.setting-box-child{
+.setting-box-child {
     background-color: #F7F7F7;
     padding: 20px;
     border-radius: 10px;
 }
 
-.setting-box-child img{
+.setting-box-child img {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
 }
 
-.setting-box-child h2{
-    margin-top: 20px;
+.setting-box-child h2 {
+    margin-top: 10px;
+}
+
+.work-bg-add {
+    background-color: #9AA0FE;
 }
