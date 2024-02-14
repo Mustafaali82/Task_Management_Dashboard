@@ -7,7 +7,7 @@
 body {
     background-color: #000000;
     margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
 .main {
@@ -106,31 +106,125 @@ input {
     color: #8E8E8E;
 }
 
-.person .person-detail span  img{
+.person .person-detail span img {
     vertical-align: middle;
     margin-right: 9px;
 }
 
-.arrow-rotate{
+.arrow-rotate {
     transition: .3s;
 }
 
-.person .arrow-rotate:hover{
+.person .arrow-rotate:hover {
     transform: rotate(180deg);
 }
 
-.dashboard-child{
+.dashboard-child {
     display: flex;
     justify-content: space-between;
 }
 
-.profile{
+.profile {
     width: 70%;
 }
 
-.tasks{
+.tasks {
     width: 30%;
+}
+
+.profile-box {
+    display: flex;
+    gap: 30px;
+}
+
+.profile-box-child {
+    background-color: white;
+    padding: 25px;
+    width: 410px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.percentage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 
+.percentage h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.percentage span {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.percentage span img {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.profile-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-person h3 {
+    font-size: 24px;
+    margin-top: -20px;
+    padding-bottom: 5px;
+}
+
+.profile-person span {
+    color: #33333360;
+    font-size: 18px;
+}
+
+.social-icon img {
+    padding: 13px;
+    background-color: #f1eeee;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.work-box {
+    display: flex;
+    gap: 15px;
+}
+
+.work {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.work-one {
+    padding: 21px;
+    background-color: #A0E79F;
+    border-radius: 26px;
+}
+
+.work-one img {
+    padding: 10px;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 14px;
+}
+
+.work-one h4{
+    font-size: 19px;
+}
+
+.work-one h2{
+    margin-top: 40px;
+}
