@@ -347,3 +347,12 @@ input {
 .work-bg-add {
     background-color: #9AA0FE;
 }
+
+.graph{
+    margin-top: 40px;
+    padding-right: 50px;
+}
+
+#myChart{
+    height: 500px !important;
+}
