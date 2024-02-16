@@ -1,19 +1,30 @@
-const ctx = document.getElementById('myChart');
+const ctx = document.getElementById("myChart");
 
 new Chart(ctx, {
-  type: 'bar',
+  type: "bar",
   data: {
-    labels: ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-    datasets: [{
-      data: [12, 19, 3, 5, 2, 3,4],
-      borderWidth: 2
-    }]
+    labels: [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ],
+    datasets: [
+      {
+        data: [2, 4, 3, 15, 2, 3, 4],
+        borderWidth: 10,
+        colors: ["#CCCCCC", "#cccccc"]
+      },
+    ],
   },
   options: {
     scales: {
       y: {
         beginAtZero: true
-      }
-    }
-  }
+      },
+    },
+  },
 });
