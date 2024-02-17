@@ -365,6 +365,7 @@ input {
 
     .main {
         padding: 20px;
+        margin-bottom: 100px;
     }
 
     .top-box {
@@ -393,5 +394,29 @@ input {
         width: 100%;
         padding: 15px;
         border-radius: 14px
+    }
+
+    .work-box {
+        flex-direction: column;
+    }
+
+    .connection {
+        width: 100%;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    #myChart {
+        height: 300px !important;
+        margin-top: 63px;
+    }
+
+    .graph {
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    .tasks {
+        width: 100%;
     }
 }

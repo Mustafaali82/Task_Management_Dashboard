@@ -15,7 +15,7 @@ new Chart(ctx, {
     datasets: [
       {
         data: [2, 4, 3, 15, 2, 3, 4],
-        borderWidth: 10,
+        borderWidth: 1,
         colors: ["#CCCCCC", "#cccccc"]
       },
     ],
