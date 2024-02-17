@@ -348,11 +348,50 @@ input {
     background-color: #9AA0FE;
 }
 
-.graph{
+.graph {
     margin-top: 40px;
     padding-right: 50px;
 }
 
-#myChart{
+#myChart {
     height: 500px !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .top-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        width: 284px;
+        margin-bottom: 25px;
+    }
+
+    .dashboard-child {
+        flex-direction: column;
+    }
+
+    .profile-box {
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .profile-box-child {
+        width: 100%;
+        padding: 15px;
+        border-radius: 14px
+    }
 }
