@@ -436,4 +436,9 @@ input {
     .taskCount h6{
         font-size: 12px;
     }
+
+    .settingbox{
+        display: flex;
+        flex-direction: column;
+    }
 }
