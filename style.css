@@ -359,7 +359,7 @@ input {
 }
 
 
-.logo{
+.logo {
     display: none;
 }
 
@@ -434,52 +434,69 @@ input {
         font-size: 14px;
     }
 
-    .other_person_detail span{
+    .other_person_detail span {
         font-size: 13px;
     }
 
-    .taskCount h6{
+    .taskCount h6 {
         font-size: 12px;
     }
 
-    .settingbox{
+    .settingbox {
         display: flex;
         flex-direction: column;
     }
 
-    .join-team{
+    .join-team {
         width: 100%;
     }
 
-    .logo{
+    .logo {
         display: block;
     }
 
-    .arrow-rotate{
+    .arrow-rotate {
         display: none;
     }
 
-    .person .person-detail h3{
+    .person .person-detail h3 {
         font-size: 15px;
     }
 
-    .person .person-detail span{
+    .person .person-detail span {
         font-size: 11px;
     }
 
-    .person .person-detail span img{
+    .person .person-detail span img {
         margin-right: 4px;
     }
 
-    .person .person-image img{
+    .person .person-image img {
         width: 100%;
     }
 
-    .social-icon img{
+    .social-icon img {
         margin: 7px;
     }
 
-    .social-icon{
+    .social-icon {
         margin-top: 10px;
+    }
+
+    .person {
+        flex-direction: row-reverse;
+    }
+
+    .percentage span {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .profile-person span{
+        font-size: 15px;
+    }
+
+    .profile-person h3{
+        font-size: 22px;
     }
 }
