@@ -419,4 +419,8 @@ input {
     .tasks {
         width: 100%;
     }
+
+    .tasks{
+        padding: 20px;
+    }
 }
