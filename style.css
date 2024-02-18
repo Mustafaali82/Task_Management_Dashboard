@@ -358,6 +358,10 @@ input {
 }
 
 
+.logo{
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .sidebar {
         display: none;
@@ -370,12 +374,12 @@ input {
 
     .top-box {
         display: flex;
-        flex-direction: column;
     }
 
     input {
         width: 284px;
         margin-bottom: 25px;
+        display: none;
     }
 
     .dashboard-child {
@@ -408,7 +412,7 @@ input {
 
     #myChart {
         height: 300px !important;
-        margin-top: 63px;
+        margin-top: 33px;
     }
 
     .graph {
@@ -444,5 +448,17 @@ input {
 
     .join-team{
         width: 100%;
+    }
+
+    .logo{
+        display: block;
+    }
+
+    .arrow-rotate{
+        display: none;
+    }
+
+    .person .person-detail h3{
+        font-size: 15px;
     }
 }
