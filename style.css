@@ -416,11 +416,24 @@ input {
         margin-top: 0;
     }
 
+
     .tasks {
         width: 100%;
     }
 
-    .tasks{
+    .tasks {
         padding: 20px;
+    }
+
+    .other_person_detail h3 {
+        font-size: 14px;
+    }
+
+    .other_person_detail span{
+        font-size: 13px;
+    }
+
+    .taskCount h6{
+        font-size: 12px;
     }
 }
