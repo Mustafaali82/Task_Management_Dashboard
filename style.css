@@ -441,4 +441,8 @@ input {
         display: flex;
         flex-direction: column;
     }
+
+    .join-team{
+        width: 100%;
+    }
 }
