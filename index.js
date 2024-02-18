@@ -4,19 +4,18 @@ new Chart(ctx, {
   type: "bar",
   data: {
     labels: [
-      "Sunday",
       "Monday",
       "Tuesday",
       "Wednesday",
       "Thursday",
       "Friday",
       "Saturday",
+      "Sunday",
     ],
     datasets: [
       {
         data: [2, 4, 3, 15, 2, 3, 4],
-        borderWidth: 1,
-        colors: ["#CCCCCC", "#cccccc"]
+        borderWidth: 1
       },
     ],
   },
