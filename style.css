@@ -194,6 +194,7 @@ input {
     background-color: #f1eeee;
     margin: 10px;
     border-radius: 10px;
+    width: 50px;
 }
 
 .work-box {
@@ -460,5 +461,25 @@ input {
 
     .person .person-detail h3{
         font-size: 15px;
+    }
+
+    .person .person-detail span{
+        font-size: 11px;
+    }
+
+    .person .person-detail span img{
+        margin-right: 4px;
+    }
+
+    .person .person-image img{
+        width: 100%;
+    }
+
+    .social-icon img{
+        margin: 7px;
+    }
+
+    .social-icon{
+        margin-top: 10px;
     }
 }
