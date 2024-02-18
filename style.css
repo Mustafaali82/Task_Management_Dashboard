@@ -169,6 +169,7 @@ input {
 .percentage span img {
     vertical-align: middle;
     margin-left: 5px;
+    width: 19px;
 }
 
 .profile-person {
@@ -492,11 +493,11 @@ input {
         font-weight: 400;
     }
 
-    .profile-person span{
+    .profile-person span {
         font-size: 15px;
     }
 
-    .profile-person h3{
+    .profile-person h3 {
         font-size: 22px;
     }
 }
