@@ -498,4 +498,12 @@ input {
     .profile-person h3 {
         font-size: 22px;
     }
+
+    .setting-box-child{
+        border-radius: 7px;
+    }
+
+    .setting-box-child h2{
+        margin-top: 20px;
+    }
 }
