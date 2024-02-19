@@ -402,6 +402,7 @@ input {
 
     .work-box {
         flex-direction: column;
+        gap: 30px;
     }
 
     .connection {
@@ -411,8 +412,10 @@ input {
     }
 
     #myChart {
-        height: 300px !important;
+        height: 350px !important;
         margin-top: 33px;
+        width: 100%;
+
     }
 
     .graph {
@@ -499,11 +502,19 @@ input {
         font-size: 22px;
     }
 
-    .setting-box-child{
+    .setting-box-child {
         border-radius: 7px;
     }
 
-    .setting-box-child h2{
+    .setting-box-child h2 {
         margin-top: 20px;
+    }
+
+    body {
+        margin: 10px;
+    }
+
+    .dashboard-child {
+        margin-top: 30px;
     }
 }
