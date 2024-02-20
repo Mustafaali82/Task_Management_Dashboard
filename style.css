@@ -518,3 +518,37 @@ input {
         margin-top: 30px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+    .sidebar{
+        display: none;
+    }
+
+    .main{
+        padding: 20px;
+    }
+
+    .logo{
+        display: block;
+    }
+
+    input{
+        display: none;
+    }
+
+    .dashboard-child{
+        flex-direction: column;
+    }
+
+    .profile{
+        width: 100%;
+    }
+
+    .graph{
+        padding-right: 0;
+    }
+
+    .connection-title h3{
+        font-size: 14px;
+    }
+}
