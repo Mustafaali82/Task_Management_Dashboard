@@ -520,35 +520,77 @@ input {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1140px) {
-    .sidebar{
+    .sidebar {
         display: none;
     }
 
-    .main{
+    .main {
         padding: 20px;
     }
 
-    .logo{
+    .logo {
         display: block;
     }
 
-    input{
+    input {
         display: none;
     }
 
-    .dashboard-child{
+    .dashboard-child {
         flex-direction: column;
     }
 
-    .profile{
+    .profile {
         width: 100%;
     }
 
-    .graph{
+    .graph {
         padding-right: 0;
     }
 
-    .connection-title h3{
+    .connection-title h3 {
         font-size: 14px;
+    }
+
+    .connection-title span {
+        font-size: 14px;
+    }
+
+    .connection-image img {
+        padding: 5px;
+    }
+
+    .work-one {
+        padding: 15px;
+        border-radius: 11px;
+    }
+
+    .profile-box-child {
+        border-radius: 11px;
+    }
+
+    .profile-box {
+        gap: 20px;
+    }
+
+    .work{
+        gap: 14px;
+    }
+
+    .work-one h4{
+        font-size: 18px;
+    }
+
+    .work-one span{
+        font-size: 13px;
+    }
+
+    .tasks{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .join-team{
+        width: 100%;
     }
 }
